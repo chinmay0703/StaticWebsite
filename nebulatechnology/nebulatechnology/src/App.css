@@ -1,0 +1,160 @@
+/* #app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 90%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+
+  /* Center slide text vertically */
+/* display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 60%;
+  height: auto;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+
+  /* background-color: #fff; */
+/* }  */
+
+.carousel {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel .slide {
+  height: 60vh;
+  /* padding: 2rem; */
+}
+
+.carousel .slide img {
+  max-height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
+/* .carousel .slide p {
+  color: #fff;
+  position: absolute;
+  top: 1/2;
+  left: 50%;
+  bottom: -50%;
+} */
+
+.image {
+  margin: 0 auto;
+  height: 80%;
+  width: auto;
+}
+
+.nav {
+  animation: nav-load 400ms ease-in;
+}
+
+@keyframes nav-load {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.logo {
+  animation-name: spin;
+  animation-duration: 8s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  /* transform: rotate(3deg); */
+  /* transform: rotate(0.3rad);/ */
+  /* transform: rotate(3grad); */
+  /* transform: rotate(.03turn);  */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 50px;
+  background: rgb(17, 24, 40);
+  color: white;
+  cursor: pointer;
+  border-radius: 70px;
+  border: none;
+  box-shadow: 0 5px 10px rgb(17, 24, 40);
+}
+.gh{
+  color: aliceblue;
+}
+
+.chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.chatbot-container:hover {
+  opacity: 1; /* Ensure full opacity on hover */
+}
+.whatsapp-logo {
+  width:80px;
+  height: 80px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.half-video {
+  width: 50%;
+}

@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dynalight&family=Sansita+Swashed&display=swap");
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* html, */
+/* body {
+  max-width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.left {
+  @apply w-full   md:w-3/5 lg:w-1/5  right-0  h-full  absolute p-5 text-3xl text-white  bg-slate-900;
+}
+
+.right {
+  @apply w-full h-full;
+}
+
+.transation_text {
+  @apply cursor-pointer font-sans hover:scale-110 hover:font-mono  hover:font-bold duration-300;
+}
